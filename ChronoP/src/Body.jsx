@@ -10,6 +10,8 @@ function Body() {
                 <div class="box">Box 1</div>
                 <div class="box">Box 2</div>
                 <div class="box">Box 3</div>
+                <div class="box">Box 4</div>
+                <div class="box">Box 5</div>
             </div>
         </div>
     );
