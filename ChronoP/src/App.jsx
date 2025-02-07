@@ -12,4 +12,6 @@ function App() {
     );
 }
 
+// run 'npm run dev' to start the server
+
 export default App
