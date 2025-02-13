@@ -5,6 +5,11 @@ function Header() {
             <nav>
                 <ul>
                     <li><a href="#">Sign In</a></li>
+                    <li>
+                        <a href="#" className="register">
+                            Register
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </header>

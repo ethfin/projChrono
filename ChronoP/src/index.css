@@ -27,7 +27,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #ffffff;
+  color: #ff0000; /* Changed hover color to red */
 }
 
 body {
@@ -83,19 +83,19 @@ button:focus-visible {
 header {
   width: 100%;
   height: 100px;
-  background: white;
+  background: transparent; /* Changed from white to transparent */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border-bottom: 2px solid #ffffff;
+  /* Removed border-bottom */
 }
 
 header h1 {
   margin: 0;
   font-size: 1.5rem;
-  color: #000000;
+  color: #ffffff; /* Changed from black to white */
 }
 
 nav {
@@ -115,14 +115,29 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #000000;
+  color: #ffffff; /* Changed from black to white */
   text-decoration: none;
   font-weight: 500;
 }
 
 nav ul li a:hover {
-  color: #ff0000;
+  color: #ff0000; /* Ensure hover color is consistent */
   transition: color 0.3s;
+}
+
+nav ul li a.register {
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  color: #000000;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s, color 0.3s;
+}
+
+nav ul li a.register:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #0a9e11;
+  color: #ffffff;
 }
 
 .body {
@@ -147,7 +162,7 @@ nav ul li a:hover {
 }
 
 .boxes {
-  background: #000000;
+  background: transparent; /* Changed from #000000 to transparent */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

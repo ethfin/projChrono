@@ -2,8 +2,7 @@ function Body() {
     return (
         <div>
             <div class="body">
-                <h1>Welcome to ChronoP</h1>
-                <p>This is a test Project</p>
+                <h1 style={{ fontSize: '3em', textAlign: 'center' }}>Welcome to ChronoP</h1>
             </div>
             
             <div class="boxes">
